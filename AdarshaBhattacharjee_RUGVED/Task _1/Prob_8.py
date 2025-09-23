@@ -8,6 +8,6 @@ def divide_string(string, n):
     if all(part == parts[0] for part in parts):
         return ', '.join('"' + part + '"' for part in parts)
     else:
-        print(f"{current_char}: {count}")
-        current_char = char
-        count = 1
+        return "Error: Parts do not form the sequence."
+
+
