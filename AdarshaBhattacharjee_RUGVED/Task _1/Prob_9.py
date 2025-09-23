@@ -1,5 +1,5 @@
 
-def caesar_cipher_encrypt(text, shift):
+def caesar_cipher(text, shift):
     result = ''
     for char in text:
         if char.isalpha():
