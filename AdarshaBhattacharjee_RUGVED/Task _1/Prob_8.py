@@ -2,7 +2,8 @@ def divide_string(string, n):
     if len(string) % n != 0:
         return "Error: String length not divisible"
     num_parts = len(string) // n
-    parts = [string[i * n: (i + 1) * n] for i in range(num_parts)]
+    for i in range(num_parts)]
+        parts = [string[i * n: (i + 1) * n] 
 
     if all(part == parts[0] for part in parts):
         return ', '.join('"' + part + '"' for part in parts)
