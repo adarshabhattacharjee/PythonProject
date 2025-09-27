@@ -1,4 +1,4 @@
-def is_valid_credit_card(number: str):
+def credit_card(number: str):
 
     if not number.isdigit():
         return False
